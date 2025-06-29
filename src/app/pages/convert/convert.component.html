@@ -1,1 +1,39 @@
-<p>convert works!</p>
+<h2>Converter</h2>
+
+<div>
+    <label for="num1">Nummer 1:</label>
+    <input type="number" id="num1" [(ngModel)]="num1">
+</div>
+
+<div>
+    <button (click)="convert1()">Konvertera till meter</button>
+</div>
+
+<div>
+    <button (click)="changeConvert1()">Konvertera till feet </button>
+</div>
+
+<!-- <div>
+
+    <p>Resultat: {{result3}} feet</p> 
+</div> -->
+<div>
+    <p>Resultat: {{result1}} </p> 
+ 
+</div>
+
+<div>
+    <label for="num2">Nummer 2:</label>
+    <input type="number" id="num2" [(ngModel)]="num2">
+</div>
+<div>
+    <button (click)="convert2()">Konvertera till Fahrenheit</button>
+</div>
+<div>
+    <button (click)="changeConvert2()">Konvertera till Celsius</button>
+</div>
+<div>
+    <p>Resultat: {{result2}}</p>
+</div>
+
+
