@@ -1,0 +1,15 @@
+button {
+    width: 150px;
+    font-size: 1em;
+    margin: 0.2em;
+    padding: 0.2em;
+    background-color: white;
+    cursor: pointer;
+}
+
+input {
+    margin-left: 1.5%;
+    height: 25px;
+    font-size: 0.8em;
+}
+

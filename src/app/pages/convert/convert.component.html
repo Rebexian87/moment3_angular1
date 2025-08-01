@@ -1,6 +1,7 @@
 <h2>Converter</h2>
 
 <div>
+    <h3>Konvertera från meter till fot eller tvärtom</h3>
     <label for="num1">Nummer 1:</label>
     <input type="number" id="num1" [(ngModel)]="num1">
 </div>
@@ -23,6 +24,7 @@
 </div>
 
 <div>
+    <h3>Konvertera från Fahrenheit till Celsius eller tvärtom</h3>
     <label for="num2">Nummer 2:</label>
     <input type="number" id="num2" [(ngModel)]="num2">
 </div>
@@ -33,7 +35,7 @@
     <button (click)="changeConvert2()">Konvertera till Celsius</button>
 </div>
 <div>
-    <p>Resultat: {{result2}}</p>
+    <p>Resultat: {{result2}}</p> 
 </div>
 
 

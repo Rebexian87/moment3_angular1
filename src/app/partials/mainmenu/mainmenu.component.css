@@ -1,3 +1,33 @@
 .active {
     color: aliceblue;
 }
+
+header {       /*meny, använder nesting*/
+ 
+        position: relative;
+        padding: 0 1em;
+        justify-content: space-between;
+        align-items: center;
+        position: static;
+        display: flex; }
+
+nav {    
+        font-size: 1.4em;}
+    li {
+        display: inline;
+           
+         }       
+
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+       
+        display: inline;
+    }
+
+   
+
+    a:hover{
+         background-color: rgb(138, 15, 219);
+    }
