@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  catImage: string = "katter.jpg"; // sökväg till bild
+  catImage: string = "katter.jpg"; // sökväg till bild i mapp public
 
 }
