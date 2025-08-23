@@ -7,7 +7,8 @@ En Agularapplikation av Rebecca Smith, resm2400
 En startsida, en koverteringssida och en om Angular sida.
 Startsida med bild. 
 Konverteringssida där man kan omvandla celsius till farenheit och tvätom. Man kan omvandla fot till meter och tvätom. 
-Om sidan innehåller text om ANgular.
+Om sidan innehåller text om Angular.
+Routes finns och huvumenyn är i en separat component
 
 ### Tack till
 Bilden är tagen från pixabay
